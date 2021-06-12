@@ -1,0 +1,33 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/media/pic_cows.jpg">
+        <div class="container">
+            <img src="/media/logo_main.png" class="logo">
+            <h1 class="title__main">Вкус, знакомый с детсва</h1>
+        </div>
+    </div>
+    <section>
+        <div class="content-box">
+            <div class="container">
+                <div class="content-box__inner">
+                    <div class="content-box__item">
+                        <div class="content-box__item__text"> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                        </div>
+                    </div>
+                    <div class="content-box__item">
+                        <img class="content-box__img" src="/media/product_pics/product_pic.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/media/pic_cows1.jpg"></div>
+    <section></section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/media/pic_cows2.jpg"></div>
+    <section></section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/media/pic_cows3.jpg"></div>
+    <section></section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/media/pic_cows.jpg"></div>
+{% endblock content %}
